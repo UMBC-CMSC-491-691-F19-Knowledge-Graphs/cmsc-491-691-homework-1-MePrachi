@@ -1,0 +1,36 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Prachi Bhalerao</foaf:name>
+<foaf:givenname>Prachi</foaf:givenname>
+<foaf:family_name>Bhalerao</foaf:family_name>
+<foaf:age>25</foaf:age>
+<foaf:nick>Bunny</foaf:nick>
+<foaf:mbox_sha1sum>957f1408db0c6a1eb94318bb0a1fcd1e2a36370f</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="www.prettyPrachi.com"/>
+<foaf:depiction rdf:resource="prachiBhalerao.png"/>
+<foaf:phone rdf:resource="tel:4436836207"/>
+<foaf:skypeID rdf:resource="prachi.bhalerao"/>
+<foaf:schoolHomepage rdf:resource="www.umbc.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Sruti Vijaykumar</foaf:name>
+<foaf:mbox_sha1sum>24b06ec23075b5158bd036dd8458e479349b5bf0</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Shaunak Pagnis</foaf:name>
+<foaf:mbox_sha1sum>0d60dac54657c9cf714c5bbb8c72687c2132f911</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Ashish Kumar</foaf:name>
+<foaf:mbox_sha1sum>9289bed806796635f6c7d009d4fefd00731e2f3b</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
